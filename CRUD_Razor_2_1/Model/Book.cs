@@ -10,7 +10,7 @@ namespace CRUD_Razor_2_1.Model
     {
         public int ID { get; set; }
         [Required]
-        public string NameOfBook { get; set; }
+        public string Name { get; set; }
 
         public string ISBN { get; set; }
         public string Author { get; set; }
